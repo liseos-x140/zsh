@@ -17,9 +17,6 @@ fpath=(
 autoload -Uz colors
 colors
 
-eval `dircolors -b`
-eval `dircolors ${HOME}/.dircolors`
-
 zstyle ':completion:*' verbose yes
 zstyle ':completion:*' list-colors ${(s.:.)LS_COLORS}
 #}}}
