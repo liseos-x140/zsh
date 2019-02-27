@@ -51,7 +51,7 @@ PROMPT="%{${fg[green]}%}[%n@%m]%{${reset_color}%} %~
 
 
 # HISTORY {{{
-HISTFILE=$HOME/.zsh-history
+HISTFILE=$HOME/.zsh_history
 HISTSIZE=100000
 SAVEHIST=1000000
 
