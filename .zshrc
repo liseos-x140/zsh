@@ -8,7 +8,6 @@
 export LANG=ja_JP.UTF-8
 fpath=(
   $HOME/.zsh/zsh-completions
-  $HOME/.zsh/zsh-syntax-highlighting
   $fpath
 )
 #}}}
@@ -130,13 +129,13 @@ esac
 
 
 # LOCAL {{{
-# Load local setting
 if [ -e ~/.zshrc_local ]; then
     source ~/.zshrc_local
 fi
 # }}}
 
 
-# zsh-syntax-highlighting {{{
-source zsh-syntax-highlighting.zsh
+# ZSH_PACKAGE {{{
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source ~/.zsh/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 #}}}
